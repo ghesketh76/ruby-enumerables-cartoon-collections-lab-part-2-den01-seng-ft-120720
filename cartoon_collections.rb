@@ -18,7 +18,9 @@ def long_planeteer_calls(planeteer_calls)
   answer = false
   planeteer_calls.each do |call|
     call.length > 4
-    
+    answer = true
+  end
+  answer
     
   
 end
